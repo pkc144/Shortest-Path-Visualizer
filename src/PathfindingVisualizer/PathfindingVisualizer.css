@@ -1,0 +1,59 @@
+.grid {
+  margin: 100px 0 0;
+}
+/* ButtonStyles.css */
+
+/* Base styles for all buttons */
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Additional styles for the selected buttons */
+button.selecting {
+  background-color: #f39c12; /* Orange background for selection mode */
+}
+
+button.selecting:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+/* Specific styles for individual buttons */
+button.visualize-btn {
+  background-color: #3498db; /* Blue background */
+}
+
+button.visualize-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+button.start-btn {
+  background-color: #e74c3c; /* Red background */
+}
+
+button.start-btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+button.finish-btn {
+  background-color: #9b59b6; /* Purple background */
+}
+
+button.finish-btn:hover {
+  background-color: #8e44ad; /* Darker purple on hover */
+}
